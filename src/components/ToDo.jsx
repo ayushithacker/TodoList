@@ -48,7 +48,7 @@ function ToDo() {
                     className="btn-position"
                     onClick={() => removeActivity(i)}
                   >
-                    remove
+                    Remove
                   </button>
                 </div>
               </p>
