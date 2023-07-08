@@ -2,9 +2,62 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #6094e2;
+}
+.container {
+  background: #eb9e9e;
+
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  padding: 2%;
+}
+.header {
+  color: #275cce;
+  font-size: xx-large;
+
+  font-weight: 800;
+
+  margin-bottom: 3%;
+}
+h3 {
+  color: rgb(99, 18, 248);
+  text-decoration: underline;
+}
+.datalist {
+  background-color: rgb(77, 125, 168);
+  color: rgb(238, 235, 236);
+  padding: 6px;
+  text-align: left;
+  width: 67%;
+}
+input[type="text"],
+select {
+  width: 80%;
+  padding: 10px;
+  border: solid black 2px;
+}
+.btn {
+  color: rgb(230, 233, 233);
+  font-weight: 700;
+  padding: 10px;
+  width: 80px;
+  background: rgb(77, 125, 168);
+}
+.btn-removeAll {
+  background: rgb(77, 125, 168);
+  color: aliceblue;
+  border-radius: 8px;
+  padding: 10px;
+}
+.btn-position {
+  position: relative;
+  border-radius: 5px;
+  left: 11%;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: -28px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,10 +75,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
